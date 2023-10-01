@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #36454f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: #ffffff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 75px #191919;
+}
+
+.container .left-side {
+  color: #ffffff;
+  position: relative;
+  background-color: #003147;
+  padding: 40px;
+}
+
+.data-profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #fb6d3a;
+}
+
+.cv-photo img {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px #191919;
+  cursor: pointer;
+  user-select: none;
+  filter: grayscale(100%);
+}
+
+.cv-photo img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.01);
+  box-shadow: 3px 3px 20px #191919;
+}
+
+.data-profile h2 {
+  font-size: 22px;
+  padding-top: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+}
+
+.contact-info {
+  padding-top: 40px;
+}
+
+.header-primary {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  color: #fb6d3a;
+}
+
+.contact-info ul {
+  position: relative;
+}
+
+.contact-info ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact-info ul li .icon-id {
+  display: inline-block;
+  width: 30px;
+  font-size: 22px;
+  color: #fb6d3a;
+}
+
+.contact-info ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tech-skills {
+  padding-top: 30px;
+}
+
+.tech-skills ul {
+  position: relative;
+}
+
+.tech-skills ul li {
+  position: relative;
+  list-style: inside;
+  color: #fb6d3a;
+}
+
+.tech-skills ul li span {
+  color: #ffffff;
+}
+
+.tech-skills {
+  padding-top: 30px;
+}
+
+.tech-skills ul {
+  position: relative;
+}
+
+.tech-skills ul li {
+  position: relative;
+  list-style: inside;
+  color: #fb6d3a;
+}
+
+.tech-skills ul li span {
+  color: #ffffff;
+}
+
+.tech-skills {
+  padding-top: 30px;
+}
+
+.tech-skills ul {
+  position: relative;
+}
+
+.tech-skills ul li {
+  position: relative;
+  list-style: inside;
+  color: #fb6d3a;
+}
+
+.tech-skills ul li span {
+  color: #ffffff;
+}
+
+.tech-skills {
+  padding-top: 30px;
+}
+
+.tech-skills ul {
+  position: relative;
+}
+
+.tech-skills ul li {
+  position: relative;
+  list-style: inside;
+  color: #fb6d3a;
+}
+
+.tech-skills ul li span {
+  color: #ffffff;
+}
+.tech-skills {
+  padding-top: 30px;
+}
+
+.tech-skills ul {
+  position: relative;
+}
+
+.tech-skills ul li {
+  position: relative;
+  list-style: inside;
+  color: #fb6d3a;
+}
+
+.tech-skills ul li span {
+  color: #ffffff;
+}
+
+.soft-skills {
+  padding-top: 30px;
+}
+
+.soft-skills ul {
+  position: relative;
+}
+
+.soft-skills ul li {
+  position: relative;
+  list-style: inside;
+  color: #fb6d3a;
+}
+
+.soft-skills ul li span {
+  color: #ffffff;
+}
+
+.container .right-side {
+  position: relative;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.description {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.job {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+.header-secondary {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #fb6d3a;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #fb6d3a;
+}
+
+.job-name {
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.job-date {
+  padding-bottom: 15px;
+  font-weight: 400;
+  color: #a8a8a8;
+}
+
+.pipe {
+  color: #000000;
+}
+
+.job-list {
+  line-height: 24px;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.education {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+.education-date {
+  font-weight: 400;
+  color: #a8a8a8;
+  padding-bottom: 274px;
+}
+
+.footer {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  text-align: justify;
+  font-size: 13px;
+}
