@@ -231,7 +231,7 @@ body {
   font-weight: 600;
   padding-bottom: 18px;
   border-bottom: 1px solid #fb6d3a;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -257,6 +257,7 @@ body {
 .job-list {
   line-height: 24px;
   padding-left: 20px;
+  padding-bottom: 15px;
   text-align: justify;
 }
 
@@ -274,7 +275,7 @@ body {
 
 .footer {
   position: relative;
-  padding: 125px 10px 0px 10px;
+  padding: 80px 10px 0px 10px;
   width: 100%;
   text-align: justify;
   font-size: 13px;
